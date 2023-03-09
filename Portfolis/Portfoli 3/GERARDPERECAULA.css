@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+body {
+    background-color: #161413;
+}
+
+.logoWidth {
+    width: 30px;
+}
+
+.nav-link {
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link:hover {
+    color: #F4511F !important;
+}
+
+.bgHalloween {
+    background-image: url(img/portrait.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 1000px;
+}
+
+.trickOrTreatWidth {
+    width: 30%;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.fontSize {
+    font-size: 2.5em;
+}
+
+.btnHalloween {
+    background-color: #F4511F;
+}
+
+.btnHalloween:hover {
+    background-color: #7FB13E !important;
+}
+
+.categoryWidth {
+    width: 100%;
+}
+
+.aboutWidth {
+    width: 50%;
+}
+
+.totWidth {
+    width: 100% !important;
+}
+
+.discountImgWidth {
+    width: 100%;
+}

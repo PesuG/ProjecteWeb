@@ -1,0 +1,16 @@
+.imagen {
+	padding: 150px 0px;
+	background: url('img/main.jpg') no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+
+.imagenGaleria {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.tablet{
+	width: 100%;
+}

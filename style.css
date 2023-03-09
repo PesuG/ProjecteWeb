@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Inter', sans-serif; */
+
+body {
+  background-color: #f1f1f1;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+p {
+  font-family: Georgia;
+  color: #005954;
+}
+
+.nav p {
+  font-weight: bold;
+  font-size: 2em;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav a {
+  color: #005954;
+  font-family: Georgia;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.5em;
+  transition: 0.3s;
+}
+
+.nav a:hover {
+  color: #005954;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+  font-family: Georgia;
+  color: #005954;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.letra h1 {
+  font-size: 10em;
+}
+
+.letra-responsive h1 {
+  font-size: 5em;
+}
+
+.letra h1:hover {
+  animation-name: animation-letra;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animation-letra {
+  0% {
+    transform: scaleY(100%) scaleX(100%);
+  }
+
+  20% {
+    transform: scaleY(60%) scaleX(120%);
+  }
+
+  40% {
+    transform: scaleY(120%) scaleX(80%);
+  }
+
+  60% {
+    transform: scaleY(80%) scaleX(110%);
+  }
+
+  80% {
+    transform: scaleY(110%) scaleX(90%);
+  }
+
+  100% {
+    transform: scaleY(100%) scaleX(100%);
+  }
+}
+
+.presentacio-p {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+canvas {
+  position: fixed;
+  top: 0%;
+  z-index: -1;
+}
+
+/* Particles effect */
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* Slider */
+
+.carrusel-main {
+  display: flex;
+  padding: 0px 35px;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.wrapper i {
+  top: 50%;
+  color: #f1f1f1;
+  height: 46px;
+  width: 46px;
+  position: absolute;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-align: center;
+  line-height: 46px;
+  background: #005954;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+
+.wrapper i:first-child {
+  left: -23px;
+  display: none;
+}
+
+.wrapper i:last-child {
+  right: -23px;
+}
+
+.wrapper .carrusel {
+  font-size: 0px;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}
+
+.carrusel.dragging {
+  cursor: grab;
+  scroll-behavior: auto;
+}
+
+.carrusel.dragging img {
+  pointer-events: none;
+}
+
+.carrusel a {
+  margin: 0px;
+  padding: 0px;
+}
+
+.carrusel img {
+  width: 75%;
+  object-fit: cover;
+  margin-left: 45px;
+  border-radius: 50px;
+}
+
+.carrusel img:first-child {
+  margin-left: 12.5%;
+}
+
+.carrusel img:last-child {
+  margin-right: 12.5%;
+}
+
+@media screen and (max-width: 550px) {
+  .carrusel img {
+    width: calc(75%/1);
+  }
+}
+
+/* Hardskills */
+
+.bg-hardskills {
+  background-color: #51AFE4;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+.hardskills-icons {
+  width: 75px;
+}
+
+.text-end {
+  font-family: 'Inter', sans-serif;
+  color: black;
+}
+
+/* Contact */
+
+.map {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.contact-p {
+  font-family: 'Inter', sans-serif;
+}
+
+.contact-icons {
+  width: 25px;
+}
+
+footer p {
+  font-size: 1.5em;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

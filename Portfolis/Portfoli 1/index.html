@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap-5.2.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="css/bootstrap-5.2.2/js/bootstrap.bundle.min.js"></script>
+  <title>Bootstrap</title>
+</head>
+
+<body>
+
+  <!-- Nav -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#"><span><img class="TheVault" src="img/TheVault.png" alt=""></span>Borderlands</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#id-personajes">Personajes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#id-sections">Sections</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#id-footer">Footer</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/borderlands.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/borderlands2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/borderlandsThePreSequel.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/borderlands3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Section 1 -->
+
+  <section>
+    <div class="container">
+      <div class="row d-flex justify-content-evenly">
+        <div id="id-personajes"></div>
+        <p class="text-center display-2 pt-5 pb-5">Personajes</p>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <img class="round round mx-auto d-block" src="img/axton.jpg" alt="">
+          <p class="text-center display-6">Axton</p>
+          <p class="text-center">Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <img class="round round mx-auto d-block" src="img/salvador.jpg" alt="">
+          <p class="text-center display-6">Salvador</p>
+          <p class="text-center">Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <img class="round round mx-auto d-block" src="img/maya.jpg" alt="">
+          <p class="text-center display-6">Maya</p>
+          <p class="text-center">Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <img class="round round mx-auto d-block" src="img/zer0.jpg" alt="">
+          <p class="text-center display-6">Zer0</p>
+          <p class="text-center">Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2 y 3 -->
+
+  <section class="container">
+    <div id="id-sections"></div>
+    <div class="row">
+      <!-- Section 2 -->
+      <div class="col-sm-12 col-md-6 mt-5 mb-5">
+        <p class="display-5 pb-5">Section 2</p>
+        <p class="col-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur enim autem, voluptatum
+          quis fugit nihil?
+        </p>
+        <div class="row">
+          <div>
+            <table class="table table-striped table-hover">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Nombre</th>
+                  <th>Edad</th>
+                  <th>Clase</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Axton</td>
+                  <td>30</td>
+                  <td>Comando</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Maya</td>
+                  <td>27</td>
+                  <td>Sirena</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Salvador</td>
+                  <td>36</td>
+                  <td>Gunzerker</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Zer0</td>
+                  <td>??</td>
+                  <td>Asesino</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Gaige</td>
+                  <td>18</td>
+                  <td>Mecanomante</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>Krieg</td>
+                  <td>??</td>
+                  <td>Psicopata</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 3 -->
+
+      <div class="d-none d-md-block col-md-6 mt-5 mb-5">
+        <p class="display-5 pb-5">Section 3</p>
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Nombre</label>
+            <input type="text" class="form-control" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 4 -->
+
+  <section>
+    <div class="container">
+      <p class="display-5 pb-5">Section 4</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore facere illum nihil error eum in quia quidem
+        quas molestiae quis!</p>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Botón
+      </button>
+
+      <!-- Modal -->
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Hackeado!</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Has sido hackeado :(</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Ok</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer class="bg-light text-center text-lg-start mt-5">
+    <div id="id-footer"></div>
+    <div class="container">
+      <div class="text-end p-3">
+        <p>Gerard Perecaula © 2022 Copyright</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
+
+
+
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#"><span><img class="TheVault" src="img/TheVault.png" alt=""></span>Borderlands</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-flex flex-row-reverse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Personajes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">No se</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Footer</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav> -->

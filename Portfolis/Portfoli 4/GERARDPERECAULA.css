@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+
+body {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bg-personalized {
+    background-color: #33ccc5;
+}
+
+.bg-section-xs {
+    background-image: url("img/banner-left.png");
+    background-repeat: no-repeat;
+}
+
+.bg-section-md {
+    background-image: url("img/banner-right.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+a:hover {
+    color: #4771cb !important;
+}
+
+h1 {
+    color: #fd6b55;
+}
+
+.color {
+    color: #33ccc5;
+}
+
+.rounded-features {
+    border-radius: 50px !important;
+}
+
+.btn-width {
+    width: 140px !important;
+    height: 30px;
+    box-shadow: 0px 2px 0px 0px #4771cb;
+    transition: 0.5s;
+}
+
+.btn-width:hover {
+    background-color: #4771cb;
+    box-shadow: 0px 2px 0px 0px #33ccc5;
+}
